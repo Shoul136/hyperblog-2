@@ -1,3 +1,5 @@
 generando contenido de mi archivo
 
 Teniendo mas lineas de codigo que requiero para actualizar los estados
+
+ESC SHIFT ZZ para salir de la pantalla que no tiene mensaje de git
