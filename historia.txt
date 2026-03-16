@@ -4,4 +4,6 @@ Teniendo mas lineas de codigo que requiero para actualizar los estados
 
 ESC SHIFT ZZ para salir de la pantalla que no tiene mensaje de git
 
-Nuevos cambios, para probar mas cosas de git y segundo cambio
+Nuevos cambios, para probar mas cosas de git y segundo cambio 
+
+Cambios creados por colaborador Fernando
