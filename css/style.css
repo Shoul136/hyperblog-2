@@ -30,7 +30,14 @@ ul>* {
     list-style: none;
 }
 
-ul>li:nth-child(1) {
+ul section:nth-child(1)
+{
+    display: flex;
+    color: white;
+    gap: 2em;
+}
+
+ul>section li:nth-child(1) {
     width: fit-content;
     padding: .5em;
     border-radius: .2em;
