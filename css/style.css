@@ -1,3 +1,10 @@
+:root{
+    --primary-color: rgb(133, 80, 231);
+    --white-color: #e1e5ff;
+    --background-icon: rgb(180, 145, 245);
+    --brackground-button: rgb(108, 53, 209);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +19,7 @@ header {
     font-weight: 500;
     padding: 1em;
     display: flex;
-    background: rgb(133, 80, 231);
+    background: var(--primary-color);
 }
 
 ul,
@@ -23,11 +30,18 @@ ul>* {
     list-style: none;
 }
 
-ul>li:nth-child(1) {
+ul section:nth-child(1)
+{
+    display: flex;
+    color: white;
+    gap: 2em;
+}
+
+ul>section li:nth-child(1) {
     width: fit-content;
     padding: .5em;
     border-radius: .2em;
-    background: rgb(180, 145, 245);
+    background: var(--background-icon);
 }
 
 .container-icon {
@@ -39,7 +53,7 @@ ul>li:nth-child(1) {
 
 .container-icon li:nth-child(1) {
     border-radius: .2em;
-    background: rgb(108, 53, 209);
+    background: var(--brackground-button);
     padding: .5em 2em;
 }
 
