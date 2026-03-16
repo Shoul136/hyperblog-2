@@ -2,7 +2,8 @@
     --primary-color: rgb(133, 80, 231);
     --white-color: #e1e5ff;
     --background-icon: rgb(180, 145, 245);
-    --brackground-button: rgb(108, 53, 209);
+    --background-button: rgb(108, 53, 209);
+    --background-main: #e1e5ff;
 }
 
 * {
@@ -12,7 +13,8 @@
 }
 
 body {
-    background: #e1e5ff;
+    background: var(--background-main);
+    color: blue;
 }
 
 header {
