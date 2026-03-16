@@ -35,7 +35,7 @@ ul>* {
 ul section:nth-child(1)
 {
     display: flex;
-    color: white;
+    color: blue;
     gap: 2em;
 }
 
